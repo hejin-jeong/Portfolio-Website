@@ -1,0 +1,13 @@
+.footer {
+    text-align: center;
+    color: lightgray;
+    font-size: 15px;
+    width: 100%;
+    bottom: 0;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.footer-logos {
+    margin: 0 10px;
+}
