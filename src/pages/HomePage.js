@@ -1,6 +1,8 @@
 import React from "react";
 import "./HomePage.css";
+import ExperienceCard from "../components/ExperienceCard";
 import ProfileChange from "../components/ProfileChange";
+import { ExperienceItems } from "../components/ExperienceItems";
 
 export default function HomePage() {
   return (
@@ -33,23 +35,60 @@ export default function HomePage() {
             </div>
           </div>
           <div className="margin-left-20px">
-            <h2>A Software Engineer</h2>
+            <h2 className="font-roboto">A Software Engineer</h2>
             <p className="margin-bottom-20px">
               I love learning new ⚡technologies and 🌻cultures. With my skills
               and knowledge, I aspire to create 💫social impacts.
             </p>
-            <a className="home-button" href="/aboutme">More About Me</a>
+            <a className="home-button" href="/aboutme">
+              More About Me
+            </a>
           </div>
         </div>
 
         <div className="home-catchup">
           <h3>Catch up with me:</h3>
-          <p>Interning @ Bonterra for the summer!</p>
+          <p>
+            Interning{" "}
+            <span>
+              <a
+                className="link-non-decoration text-bold"
+                href="https://www.bonterratech.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                @ Bonterra
+              </a>
+            </span>{" "}
+            for the summer!
+          </p>
           <p className="home-catchup-update">Updated July 3rd, 2022</p>
         </div>
       </div>
-      <div className="home-experience"></div>
-      <div className="home-project"></div>
+
+      <div className="home-experience">
+        <h2 className="home-experience-title">Experience</h2>
+        <div className="flex-container-col margin-bottom-50px">
+          {ExperienceItems.slice(0, 3).map((item) => {
+            return (
+              <ExperienceCard
+                key={item.id}
+                title={item.title}
+                employer={item.employer}
+                date={item.date}
+                url={item.url}
+              />
+            );
+          })}
+        </div>
+        <a className="home-button" href="/experience">
+          More Experience
+        </a>
+      </div>
+
+      <div className="home-project">
+        <h2 className="home-project-title">Projects</h2>
+      </div>
     </div>
   );
 }

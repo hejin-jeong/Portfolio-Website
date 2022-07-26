@@ -2,7 +2,7 @@ import React from 'react'
 import { NavbarItems } from "./NavbarItems"
 import "./Navbar.css"
 
-function Navbar() {
+export default function Navbar() {
     const [isClicked, setIsClicked] = React.useState(false)
 
     function handleClick () {
@@ -26,5 +26,3 @@ function Navbar() {
 
     )
 }
-
-export default Navbar

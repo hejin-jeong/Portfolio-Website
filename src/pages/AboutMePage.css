@@ -1,0 +1,50 @@
+.about-page {
+    background-color: #FFF7E3;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 130px;
+}
+
+.about-name {
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+.pronunciation {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.about-life {
+    margin: auto;
+    margin-top: 100px;
+    padding: 5px 20px;
+    text-align: left;
+    background-color: #FFE196;
+}
+
+.about-swe {
+    margin: auto;
+    margin-top: 50px;
+    padding: 5px 20px;
+    text-align: left;
+    background-color: #FFE196;
+}
+
+.about-edu {
+    padding: 5px 20px;
+    text-align: left;
+    background-color: #FFE196;
+    margin-top: 50px;
+}
+
+.about-skills {
+    padding: 5px 20px;
+    text-align: left;
+    background-color: #FFE196;
+    margin-left: 20px;
+    margin-top: 50px;
+}
