@@ -1,5 +1,6 @@
 import React from "react";
 import "./HomePage.css";
+import ProjectCarousel from "../components/ProjectCarousel";
 import ExperienceCard from "../components/ExperienceCard";
 import ProfileChange from "../components/ProfileChange";
 import { ExperienceItems } from "../components/ExperienceItems";
@@ -21,7 +22,7 @@ export default function HomePage() {
                 >
                   <i class="fa fa-github footer-logos" aria-hidden="true"></i>
                 </a>
-                <a href="mailto: pearlofthesea25@gmail.com">
+                <a href="mailto:pearlofthesea25@gmail.com">
                   <i class="fa fa-envelope footer-logos"></i>
                 </a>
                 <a
@@ -88,7 +89,12 @@ export default function HomePage() {
 
       <div className="home-project">
         <h2 className="home-project-title">Projects</h2>
+        <ProjectCarousel />
+        <a className="home-button" href="/project">
+          More Projects
+        </a>
       </div>
+
     </div>
   );
 }

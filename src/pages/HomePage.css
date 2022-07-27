@@ -92,12 +92,12 @@
 .home-project {
     background-color: #FFF7E3;
     text-align: center;
-    padding: 0 25%;
+    padding: 0 25% 70px;
 }
 
 .home-project-title {
     font-family: 'Roboto', sans-serif;
-    padding-top: 70px;
-    padding-bottom: 40px;
+    padding-top: 90px;
+    padding-bottom: 20px;
 }
 
