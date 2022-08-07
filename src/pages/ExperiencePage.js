@@ -17,6 +17,7 @@ export default function ExperiencePage() {
                   employer={item.employer}
                   date={item.date}
                   url={item.url}
+                  role={item.role}
                 />
             );
           })}

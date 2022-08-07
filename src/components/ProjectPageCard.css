@@ -1,0 +1,18 @@
+.project-card-box {
+    height: 17rem;
+    width: 17rem;
+    margin: 1rem;
+    margin-bottom: 60px;
+    background-color:gray;
+}
+
+.project-card-img {
+    height: 17rem;
+    width: 17rem;
+}
+
+
+.project-card-img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}

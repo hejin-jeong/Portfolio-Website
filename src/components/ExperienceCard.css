@@ -1,0 +1,28 @@
+.experience-card-box {
+    background-color: #FFE196;
+    border-radius: 7px;
+    width: 80%;
+    text-align: left;
+    margin: 10px;
+    padding: 0 10px; 
+}
+
+.experience-card-date {
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.experience-card-content {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.experience-clicked {
+    background-color: white;
+}
+
+.experience-not-clicked {
+    display: none;
+}

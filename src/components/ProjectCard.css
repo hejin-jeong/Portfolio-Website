@@ -1,0 +1,41 @@
+    article {
+    position: absolute;
+    width: 12rem;
+    height: 100%;
+  
+    transition: all 1s;
+  }
+  
+  .project-card {
+    position: absolute;
+  
+    height: 20rem;
+    width: 10rem;
+  
+    margin: 1rem;
+  
+    background-color: gray;
+  
+    border-radius: 1rem;
+  
+    text-align: center;
+    text-transform: capitalize;
+  
+    box-sizing: border-box;
+  
+    user-select: none;
+  }
+  
+  .project-card:hover {
+    cursor: pointer;
+  }
+  
+  .project-card img {
+    height: 15rem;
+    width: 10rem;
+  
+    object-fit: cover;
+    object-position: top;
+  
+    pointer-events: none;
+  }
