@@ -25,34 +25,36 @@ export default function AboutMePage() {
       <div className="about-swe">
         <h2>Software Engineer</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          I have long been interested in pursuing social values that improve the
+          quality of life. To convert my ideas into action, I try to help others
+          who need my knowledge and skills by volunteering, working as a TA, and
+          mostly, building web/mobile platforms that provide what users want.
+          Throughout my lifelong CS journey, I aspire to create innovative social impacts and
+          contribute to strengthening the collaborative CS community where we
+          can respect and encourage each other.
         </p>
       </div>
 
       <div className="about-edu-skills">
-      <div>
-        <div className="about-edu">
-          <h2>Education</h2>
-          <ul>
-            <li>Mount Holyoke College '23</li>
-          </ul>
-        </div>
-        <div className="about-love">
-          <h2>Interests</h2>
-          <ul>
-            <li>Fullstack development</li>
-            <li>Mobile development</li>
-            <br />
-            <li>Travelling</li>
-            <li>Sports: Badminton, Volleyball, Bouldering, Cycling, Hiking</li>
-          </ul>
-        </div>
+        <div>
+          <div className="about-edu">
+            <h2>Education</h2>
+            <ul>
+              <li>Mount Holyoke College '23</li>
+            </ul>
+          </div>
+          <div className="about-love">
+            <h2>Interests</h2>
+            <ul>
+              <li>Fullstack development</li>
+              <li>Mobile development</li>
+              <br />
+              <li>Travelling</li>
+              <li>
+                Sports: Badminton, Volleyball, Bouldering, Cycling, Hiking
+              </li>
+            </ul>
+          </div>
         </div>
         <div className="about-skills">
           <h2>Skills</h2>
