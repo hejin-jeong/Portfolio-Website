@@ -78,6 +78,9 @@ export default function HomePage() {
                 employer={item.employer}
                 date={item.date}
                 url={item.url}
+                role={item.role}
+                role2={item.role2}
+                role3={item.role3}
               />
             );
           })}
@@ -94,7 +97,6 @@ export default function HomePage() {
           More Projects
         </a>
       </div>
-
     </div>
   );
 }

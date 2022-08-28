@@ -1,10 +1,14 @@
 .experience-card-box {
+    display: flex;
+    justify-content: space-between;
     background-color: #FFE196;
     border-radius: 7px;
-    width: 80%;
+    width: 40vw;
     text-align: left;
     margin: 10px;
-    padding: 0 10px; 
+    padding: 0 10px;
+    cursor: pointer;
+    align-items: center;
 }
 
 .experience-card-date {
@@ -19,8 +23,25 @@
     margin-bottom: 10px;
 }
 
+.experience-date-employer {
+    display: flex;
+    flex-direction: column;
+}
+
+.employer:hover {
+    color: #96B4FF;
+}
+
+.arrow {
+}
+
 .experience-clicked {
     background-color: white;
+    text-align: left;
+    border: 1px solid #FFF7E3;
+    margin: 10px;
+    padding: 10px;
+    width: 40vw;
 }
 
 .experience-not-clicked {

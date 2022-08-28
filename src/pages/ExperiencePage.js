@@ -18,6 +18,8 @@ export default function ExperiencePage() {
                   date={item.date}
                   url={item.url}
                   role={item.role}
+                  role2={item.role2}
+                  role3={item.role3}
                 />
             );
           })}

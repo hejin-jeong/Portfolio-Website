@@ -37,7 +37,7 @@ export default function AboutMePage() {
       <div className="flex-container">
         <div className="about-edu">
           <h2>Education</h2>
-          <p>Mount Holyoke College</p>
+          <p>Mount Holyoke College '23</p>
         </div>
         <div className="about-skills">
           <h2>Skills</h2>
