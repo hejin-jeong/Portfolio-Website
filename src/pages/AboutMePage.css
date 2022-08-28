@@ -26,6 +26,11 @@
     background-color: #FFE196;
 }
 
+.pearl {
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 1.3em;
+}
+
 .about-swe {
     margin: auto;
     margin-top: 50px;
@@ -34,7 +39,24 @@
     background-color: #FFE196;
 }
 
+.about-edu-skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    padding-left: 20px;
+}
+
 .about-edu {
+    padding: 5px 20px;
+    text-align: left;
+    background-color: #FFE196;
+    margin-top: 50px;
+    height: 130px;
+}
+
+.about-love {
     padding: 5px 20px;
     text-align: left;
     background-color: #FFE196;
@@ -47,4 +69,24 @@
     background-color: #FFE196;
     margin-left: 20px;
     margin-top: 50px;
+    width: 30%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.grid-skill {
+    text-align: left;
+}
+
+.grid-level {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 1rem;
+    text-align: left;
+    color: #96B4FF;
+    font-size: 1.5rem;
 }
