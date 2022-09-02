@@ -3,6 +3,9 @@
 # profile pictures
 /resources/images/
 
+# firebase
+./firebase
+
 # dependencies
 /node_modules
 /.pnp
