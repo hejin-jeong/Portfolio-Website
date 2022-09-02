@@ -1,7 +1,7 @@
 import React from "react";
 import "./ExperiencePage.css";
-import ExperienceCard from "../components/ExperienceCard";
-import { ExperienceItems } from "../components/ExperienceItems";
+import ExperienceCard from "../../components/ExperienceCard/ExperienceCard";
+import { ExperienceItems } from "../../components/ExperienceCard/ExperienceItems";
 
 export default function ExperiencePage() {
   return (

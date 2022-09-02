@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProjectPage.css";
-import { ProjectPageCardContents } from "../components/ProjectPageCardContents";
-import ProjectPageCard from "../components/ProjectPageCard";
+import { ProjectPageCardContents } from "../../components/ProjectCard/ProjectPageCardContents";
+import ProjectPageCard from "../../components/ProjectCard/ProjectPageCard";
 
 export default function ProjectPage() {
   return (

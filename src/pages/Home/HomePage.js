@@ -1,9 +1,9 @@
 import React from "react";
 import "./HomePage.css";
-import ProjectCarousel from "../components/ProjectCarousel";
-import ExperienceCard from "../components/ExperienceCard";
-import ProfileChange from "../components/ProfileChange";
-import { ExperienceItems } from "../components/ExperienceItems";
+import ProjectCarousel from "../../components/ProjectMainPage/ProjectCarousel";
+import ExperienceCard from "../../components/ExperienceCard/ExperienceCard";
+import ProfileChange from "../../components/ProfilePictures/ProfileChange";
+import { ExperienceItems } from "../../components/ExperienceCard/ExperienceItems";
 
 export default function HomePage() {
   return (

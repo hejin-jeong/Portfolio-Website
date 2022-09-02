@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutMePage.css";
-import ProfileChange from "../components/ProfileChange";
+import ProfileChange from "../../components/ProfilePictures/ProfileChange";
 
 export default function AboutMePage() {
   return (

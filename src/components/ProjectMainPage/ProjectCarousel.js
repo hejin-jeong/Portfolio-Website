@@ -3,7 +3,7 @@ import "./ProjectCarousel.css";
 import { useState } from "react";
 
 import ProjectCard from "./ProjectCard";
-import Paginator from "../Paginator";
+import Paginator from "./Paginator";
 
 import { ProjectItems } from "../ProjectCard/ProjectItems";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
