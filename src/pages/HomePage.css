@@ -37,6 +37,10 @@
     text-align: center;
 }
 
+.home-logos:hover {
+    color: #FFE196;
+}
+
 .font-roboto {
     font-family: 'Edu SA Beginner', cursive;
 }
@@ -50,7 +54,8 @@
 }
 
 .home-button:hover {
-    color: #FFE196;
+    background-color: #FFE196;
+    color: #96B4FF;
 }
 
 .home-catchup {

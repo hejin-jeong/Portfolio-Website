@@ -13,13 +13,7 @@ export default function ExperiencePage() {
             return (
                 <ExperienceCard
                 key={item.id}
-                  title={item.title}
-                  employer={item.employer}
-                  date={item.date}
-                  url={item.url}
-                  role={item.role}
-                  role2={item.role2}
-                  role3={item.role3}
+                {...item}
                 />
             );
           })}

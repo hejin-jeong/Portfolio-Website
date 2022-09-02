@@ -9,6 +9,7 @@ export default function ExperienceCard({
   role,
   role2,
   role3,
+  role4
 }) {
   const [isClicked, setIsClicked] = useState(false);
 
@@ -37,7 +38,7 @@ export default function ExperienceCard({
         </div>
         <i
           className={
-            isClicked ? "fa fa-chevron-up arrow" : "fa fa-chevron-down arrow"
+            isClicked ? "fa fa-chevron-up" : "fa fa-chevron-down"
           }
         ></i>
       </div>
@@ -48,6 +49,7 @@ export default function ExperienceCard({
         <p>{role}</p>
         <p>{role2}</p>
         <p>{role3}</p>
+        <p>{role4}</p>
       </div>
     </div>
   );

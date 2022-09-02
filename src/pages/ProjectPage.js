@@ -14,9 +14,7 @@ export default function ProjectPage() {
               <>
                 <ProjectPageCard
                   key={index}
-                  img={item.img}
-                  title={item.title}
-                  content={item.content}
+                  {...item}
                 />
               </>
             );

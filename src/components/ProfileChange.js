@@ -32,7 +32,7 @@ export default function ProfileChange() {
 
   return (
     <div>
-      <img className="profile-img" src={image} alt="Profile" />
+      <img className="profile-img" src={image} alt="Profile Pictures" title="Nice to meet you:)" />
     </div>
   );
 }

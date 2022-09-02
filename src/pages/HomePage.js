@@ -19,18 +19,20 @@ export default function HomePage() {
                   href="https://github.com/hejin-jeong"
                   target="_blank"
                   rel="noreferrer"
+                  title="GitHub"
                 >
-                  <i class="fa fa-github footer-logos" aria-hidden="true"></i>
+                  <i class="fa fa-github footer-logos home-logos" aria-hidden="true"></i>
                 </a>
-                <a href="mailto:pearlofthesea25@gmail.com">
-                  <i class="fa fa-envelope footer-logos"></i>
+                <a href="mailto:pearlofthesea25@gmail.com" title="Gmail">
+                  <i class="fa fa-envelope footer-logos home-logos"></i>
                 </a>
                 <a
                   href="https://www.linkedin.com/in/hejin-jeong/"
                   target="_blank"
                   rel="noreferrer"
+                  title="LinkedIn"
                 >
-                  <i class="fa fa-linkedin footer-logos"></i>
+                  <i class="fa fa-linkedin footer-logos home-logos"></i>
                 </a>
               </div>
             </div>
@@ -57,6 +59,7 @@ export default function HomePage() {
                 href="https://www.bonterratech.com/"
                 target="_blank"
                 rel="noreferrer"
+                title="Bonterra"
               >
                 @ Bonterra
               </a>
@@ -74,13 +77,7 @@ export default function HomePage() {
             return (
               <ExperienceCard
                 key={item.id}
-                title={item.title}
-                employer={item.employer}
-                date={item.date}
-                url={item.url}
-                role={item.role}
-                role2={item.role2}
-                role3={item.role3}
+                {...item}
               />
             );
           })}

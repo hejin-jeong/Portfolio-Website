@@ -15,7 +15,7 @@ export default function AboutMePage() {
           <em>"Pearl of the Sea"</em>
         </p>
         <p>
-          In my name, 'He' refers to the sea and 'jin' refers to the pearl and
+          In my name, 'He' stands for the sea and 'jin' refers to the pearl and
           genuineness. I live my life as wide as the sea, deep as the sea,
           active as the sea, and calm as the sea. I want my pearl to be genuine
           and honest. As I am the pearl of my sea, everyone is the pearl of
@@ -29,9 +29,9 @@ export default function AboutMePage() {
           quality of life. To convert my ideas into action, I try to help others
           who need my knowledge and skills by volunteering, working as a TA, and
           mostly, building web/mobile platforms that provide what users want.
-          Throughout my lifelong CS journey, I aspire to create innovative social impacts and
-          contribute to strengthening the collaborative CS community where we
-          can respect and encourage each other.
+          Throughout my lifelong CS journey, I aspire to create innovative
+          social impacts and provide reliable spaces where people can achieve
+          what they want.
         </p>
       </div>
 
