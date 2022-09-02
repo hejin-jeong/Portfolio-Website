@@ -14,6 +14,7 @@ export default function ExperiencePage() {
                 <ExperienceCard
                 key={item.id}
                 {...item}
+                home={false}
                 />
             );
           })}

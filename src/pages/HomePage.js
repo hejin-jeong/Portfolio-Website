@@ -78,6 +78,7 @@ export default function HomePage() {
               <ExperienceCard
                 key={item.id}
                 {...item}
+                home={true}
               />
             );
           })}
