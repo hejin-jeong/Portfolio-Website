@@ -2,7 +2,15 @@ import React, { useState } from "react";
 import "./ExperienceCard.css";
 
 export default function ExperienceCard({
-  props
+  title,
+  employer,
+  date,
+  url,
+  role,
+  role2,
+  role3,
+  role4,
+  home
 }) {
   const [isClicked, setIsClicked] = useState(false);
 
@@ -14,18 +22,18 @@ export default function ExperienceCard({
     <div className="experience-container">
       <div className="experience-card-box" onClick={toggleExperience}>
         <div className="experience-date-employer">
-          <p className="experience-card-date">{props.date}</p>
+          <p className="experience-card-date">{date}</p>
           <p className="experience-card-content">
             <a
               className="link-non-decoration employer"
-              href={props.url}
+              href={url}
               target="_blank"
               rel="noreferrer"
             >
-              <strong>{props.employer}</strong>
+              <strong>{employer}</strong>
             </a>{" "}
             <div>
-              <i>{props.title}</i>
+              <i>{title}</i>
             </div>
           </p>
         </div>
@@ -37,12 +45,12 @@ export default function ExperienceCard({
       </div>
 
       <div
-        className={isClicked ? "experience-clicked"  + (props.home ? 'experience-home' : null) : "experience-not-clicked"}
+        className={isClicked ? `experience-clicked ${home ? "experience-home" : ""}` : "experience-not-clicked"}
       >
-        <p>{props.role}</p>
-        <p>{props.role2}</p>
-        <p>{props.role3}</p>
-        <p>{props.role4}</p>
+        <p>{role}</p>
+        <p>{role2}</p>
+        <p>{role3}</p>
+        <p>{role4}</p>
       </div>
     </div>
   );
