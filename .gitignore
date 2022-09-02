@@ -4,7 +4,8 @@
 /src/resources/images/
 
 # firebase
-/.firebase
+.firebase
+.firebaserc
 
 # dependencies
 /node_modules
