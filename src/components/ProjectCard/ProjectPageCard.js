@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./ProjectPageCard.css";
 import { ProjectPopup } from "./ProjectPopup";
 
-export default function ProjectPageCard({ img, title, content }) {
+export default function ProjectPageCard({ img, title, content, github }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const togglePopup = () => {
@@ -23,8 +23,16 @@ export default function ProjectPageCard({ img, title, content }) {
         <ProjectPopup
           popupContent={
             <>
-              <b> {title}</b>
-              <p>{content}</p>
+              <h1> {title}</h1>
+              <img
+                className="project-content-img"
+                src={img}
+                alt="wordle game"
+              ></img>
+              <div className="project-content">{content}</div>
+              <a className="" href={github} target="_blank" rel="noreferrer" title="Github Repository">
+                <i class="fa fa-github project-github" aria-hidden="true"></i>
+              </a>
             </>
           }
           handleClose={togglePopup}

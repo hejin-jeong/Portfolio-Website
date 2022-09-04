@@ -16,3 +16,17 @@
     opacity: 0.5;
     cursor: pointer;
 }
+
+.project-content-img {
+    width: 30vw;
+}
+
+.project-content {
+    text-align: left;
+}
+
+.project-github {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3%;
+}
