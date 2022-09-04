@@ -1,6 +1,6 @@
 export const ProjectItems = [
     {
-      name: "simon",
+      name: "Java GUI Wordle Game",
       img: "https://imgur.com/c43aAlv.jpg",
     },
     {
