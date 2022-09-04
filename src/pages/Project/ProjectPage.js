@@ -13,7 +13,7 @@ export default function ProjectPage() {
       date: new Date(2022, 4, 3),
       id: 220403,
       github: "https://github.com/hejin-jeong/Java-Wordle-Game",
-      img: wordle,
+      img: "https://i.postimg.cc/KzDQFTt7/wordle.png",
       title: "Java GUI Wordle Game",
       content: (
         <>
@@ -56,7 +56,7 @@ export default function ProjectPage() {
       id: 220404,
       github: "https://github.com/MoHoMood/eMoods",
       name: "emoods",
-      img: emoods,
+      img: "https://i.postimg.cc/2jgVR62K/emoods.png",
       title: "eMoods iOS app",
       content: (
         <>
@@ -100,7 +100,7 @@ export default function ProjectPage() {
       github: "https://github.com/Dahejo/hackher413",
       url: "https://must-seum.web.app/",
       name: "mustseum",
-      img: mustseum,
+      img: "https://i.postimg.cc/Gps509Mz/mustseum.png",
       title: "Must-seum React Web app",
       content: (
         <>
@@ -145,7 +145,7 @@ export default function ProjectPage() {
       url: "https://que-vac-dahejo.web.app/",
       memo: "(Recommend to set viewport to iPhone SE (375x667))",
       name: "quevec",
-      img: quevec,
+      img: "https://i.postimg.cc/FKnhyW6B/quevec.png",
       title: "Quevec React app",
       content: (
         <>
@@ -189,7 +189,7 @@ export default function ProjectPage() {
       github: "https://github.com/hi-hemini/mohoho",
       url: "https://mohoho-info.web.app/",
       name: "mohoho",
-      img: mohoho,
+      img: "https://i.postimg.cc/zXQHfvdW/mohoho.png",
       title: "Mohoho website",
       content: (
         <>

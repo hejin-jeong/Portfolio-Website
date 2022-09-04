@@ -5,16 +5,12 @@ import { useState } from "react";
 import ProjectCard from "./ProjectCard";
 import Paginator from "./Paginator";
 
+import { ProjectItems } from "../ProjectMainPage/ProjectItems";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChevronLeft,
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
-
-import wordle from "../../resources/images/wordle.png";
-import mustseum from "../../resources/images/mustseum.png";
-import quevec from "../../resources/images/quevec.png";
-import emoods from "../../resources/images/emoods.png";
 
 export default function ProjectCarousel() {
   const [index, setIndex] = useState(0);
@@ -119,25 +115,6 @@ export default function ProjectCarousel() {
       document.ontouchend = null;
     }
   };
-
-  const ProjectItems = [
-    {
-      name: "Java GUI Wordle Game",
-      img: wordle,
-    },
-    {
-      name: "eMoods iOS app",
-      img: emoods,
-    },
-    {
-      name: "Must-seum React Web app",
-      img: mustseum,
-    },
-    {
-      name: "Quevec React app",
-      img: quevec,
-    },
-  ];
 
   return (
     <div className="project-carousel">

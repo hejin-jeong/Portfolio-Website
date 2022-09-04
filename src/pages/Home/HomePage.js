@@ -1,9 +1,15 @@
 import React from "react";
 import "./HomePage.css";
-import ProjectCarousel from "../../components/ProjectMainPage/ProjectCarousel";
-import ExperienceCard from "../../components/ExperienceCard/ExperienceCard";
+
 import ProfileChange from "../../components/ProfilePictures/ProfileChange";
+
+import ExperienceCard from "../../components/ExperienceCard/ExperienceCard";
 import { ExperienceItems } from "../../components/ExperienceCard/ExperienceItems";
+
+import ProjectCarousel from "../../components/ProjectMainPage/ProjectCarousel";
+
+import ProjectSlider from "../../components/ProjectMainPage/ProjectSlider";
+import { ProjectItems } from "../../components/ProjectMainPage/ProjectItems";
 
 export default function HomePage() {
   return (
@@ -21,7 +27,10 @@ export default function HomePage() {
                   rel="noreferrer"
                   title="GitHub"
                 >
-                  <i class="fa fa-github footer-logos home-logos" aria-hidden="true"></i>
+                  <i
+                    class="fa fa-github footer-logos home-logos"
+                    aria-hidden="true"
+                  ></i>
                 </a>
                 <a href="mailto:pearlofthesea25@gmail.com" title="Gmail">
                   <i class="fa fa-envelope footer-logos home-logos"></i>
@@ -74,13 +83,7 @@ export default function HomePage() {
         <h2 className="home-experience-title">Experience</h2>
         <div className="flex-container-col margin-bottom-50px">
           {ExperienceItems.slice(0, 3).map((item) => {
-            return (
-              <ExperienceCard
-                key={item.id}
-                {...item}
-                home={true}
-              />
-            );
+            return <ExperienceCard key={item.id} {...item} home={true} />;
           })}
         </div>
         <a className="home-button" href="/experience">
@@ -90,7 +93,7 @@ export default function HomePage() {
 
       <div className="home-project">
         <h2 className="home-project-title">Projects</h2>
-        <ProjectCarousel />
+        <ProjectSlider slides={ProjectItems} />
         <a className="home-button" href="/project">
           More Projects
         </a>
