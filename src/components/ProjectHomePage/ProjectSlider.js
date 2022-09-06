@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ProjectItems } from './ProjectItems';
+import { ProjectItems } from '../ProjectCard/ProjectItems';
 import './ProjectSlider.css';
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 
@@ -30,7 +30,7 @@ const ProjectSlider = ({ slides }) => {
             key={index}
           >
             {index === current && (
-              <img src={slide.image} alt='project demo' className='image' />
+              <img src={slide.img} alt='project demo' className='image' />
             )}
           </div>
         );

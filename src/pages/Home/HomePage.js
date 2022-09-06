@@ -6,10 +6,8 @@ import ProfileChange from "../../components/ProfilePictures/ProfileChange";
 import ExperienceCard from "../../components/ExperienceCard/ExperienceCard";
 import { ExperienceItems } from "../../components/ExperienceCard/ExperienceItems";
 
-import ProjectCarousel from "../../components/ProjectMainPage/ProjectCarousel";
-
-import ProjectSlider from "../../components/ProjectMainPage/ProjectSlider";
-import { ProjectItems } from "../../components/ProjectMainPage/ProjectItems";
+import ProjectSlider from "../../components/ProjectHomePage/ProjectSlider";
+import { ProjectItems } from '../../components/ProjectCard/ProjectItems';
 
 export default function HomePage() {
   return (
