@@ -40,3 +40,14 @@
     transform: rotate(360deg);
   }
 }
+
+
+.hackathon {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.hackathon:hover {
+  text-decoration: underline;
+}

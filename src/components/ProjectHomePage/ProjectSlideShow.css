@@ -1,0 +1,82 @@
+.project-container {
+    position: relative;
+    margin-left: 2.5%;
+    width: 95%;
+    padding-bottom: 30px;
+  }
+  
+  .each-slide {
+    color: #423764;
+    top: 50%;
+    background-color: none;
+    text-align: center;
+  }
+
+.img-container {
+    display: flex;
+  justify-content: center;
+    height: 70vh;
+}
+
+  .main-project-img {
+    width: 30vw;
+    margin: auto;
+  }
+
+  /* Next & previous buttons */
+  #prev,
+  #next {
+    background-color: white;
+    border: none !important;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px 24px 16px 24px;
+    color: #ff5f5f;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.7s ease;
+    user-select: none;
+  }
+  
+  #prev:hover,
+  #next:hover {
+    background-color: #ff5f5f;
+    color: white;
+    border-radius: 100px;
+  }
+  
+  /* Position the "next button" to the right */
+  #next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  #prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /*bounce from top animation*/
+  .right-slide {
+    animation-name: right-slide;
+    animation-duration: 1s;
+  }
+  
+  @keyframes right-slide {
+    0% {
+      transform: translateY(-5%);
+      opacity: 0.1;
+    }
+  
+    50% {
+      transform: translateY(5%);
+      opacity: 0.3;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }

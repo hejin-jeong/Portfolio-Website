@@ -1,15 +1,15 @@
 .slider {
     position: relative;
-    height: 68vh;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2rem;
   }
   
   .image {
-    width: 30vw;
+    height: 50vh;
     border-radius: 10px;
+    margin: 10% auto;
   }
   
   .right-arrow {
@@ -52,3 +52,10 @@
     transition-duration: 1s;
     transform: scale(1.08);
   }
+
+  @media only screen and (min-width: 1530px) {
+  
+}
+
+@media only screen and (max-width: 1080px) {
+}

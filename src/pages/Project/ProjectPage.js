@@ -10,6 +10,7 @@ export default function ProjectPage() {
     <div className="padding-top-70px project-page">
       <div className="home-experience">
         <h2 className="home-experience-title">Projects</h2>
+        
         <div className="project-card-view">
           {ProjectItems.sort((a, b) => b.date - a.date).map(
             (item) => {

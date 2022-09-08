@@ -7,7 +7,8 @@ import ExperienceCard from "../../components/ExperienceCard/ExperienceCard";
 import { ExperienceItems } from "../../components/ExperienceCard/ExperienceItems";
 
 import ProjectSlider from "../../components/ProjectHomePage/ProjectSlider";
-import { ProjectItems } from '../../components/ProjectCard/ProjectItems';
+import { ProjectItems } from "../../components/ProjectCard/ProjectItems";
+import ProjectSlideShow from "../../components/ProjectHomePage/ProjectSlideShow";
 
 export default function HomePage() {
   return (
@@ -91,7 +92,10 @@ export default function HomePage() {
 
       <div className="home-project">
         <h2 className="home-project-title">Projects</h2>
-        <ProjectSlider slides={ProjectItems} />
+        <div>
+          <ProjectSlider slides={ProjectItems} />
+        </div>
+        {/* <ProjectSlideShow slides={ProjectItems}></ProjectSlideShow> */}
         <a className="home-button" href="/project">
           More Projects
         </a>

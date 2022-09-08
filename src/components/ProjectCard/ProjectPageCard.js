@@ -25,7 +25,7 @@ export default function ProjectPageCard({ img, title, content, github, url, memo
             <>
               <h1 className="project-content-title">{title}</h1>
               <p>{memo}</p>
-              <a className={url ? 'project-url' : ''} href={url} target="_blank" rel="noreferrer" title="View Project"><img
+              <a className={url ? 'project-url' : ''} href={url} target="_blank" rel="noreferrer"><img
                 className={"project-content-img " + (url ? 'project-content-img-hover' : '')}
                 src={img}
                 alt="project demo"
