@@ -93,9 +93,8 @@ export default function HomePage() {
       <div className="home-project">
         <h2 className="home-project-title">Projects</h2>
         <div>
-          <ProjectSlider slides={ProjectItems} />
+          <ProjectSlider slides={ProjectItems.sort((a, b) => b.date - a.date).slice(0, 3)} />
         </div>
-        {/* <ProjectSlideShow slides={ProjectItems}></ProjectSlideShow> */}
         <a className="home-button" href="/project">
           More Projects
         </a>

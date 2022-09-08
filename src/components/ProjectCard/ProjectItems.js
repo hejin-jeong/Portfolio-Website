@@ -163,9 +163,10 @@ export const ProjectItems = [
         <p>
           This project was created using React.js, Figma, Firebase, and Google
           Maps API. The purpose of this project is to provide users with an
-          all-in-one app where they can find COVID-19 testing centers, use QR codes to
-          verify their immunization records, and track their test results. I worked on
-          this project with a team of 3 during a 24-hour hackathon{" "}
+          all-in-one app where they can find COVID-19 testing centers, use QR
+          codes to verify their immunization records, and track their test
+          results. I worked on this project with a team of 3 during a 24-hour
+          hackathon{" "}
           <a
             className="hackathon"
             href="https://u-hack.devpost.com/"
@@ -174,16 +175,17 @@ export const ProjectItems = [
           >
             U HACK 2022
           </a>{" "}
-          and achieved the Third Place Award. I built the main page and map page by
-          utilizing Google Maps API with the location list.
+          and achieved the Third Place Award. I built the main page and map page
+          by utilizing Google Maps API with the location list.
         </p>
         <br />
         <h3>Features</h3>
         <ul>
           <li>User can check positive cases and changes in policies.</li>
           <li>
-            User can find COVID-19 testing centers by tapping a map and view lists which
-            are sorted by distance and waitlist, and make appointments.
+            User can find COVID-19 testing centers by tapping a map and view
+            lists which are sorted by distance and waitlist, and make
+            appointments.
           </li>
           <li>
             User can use their QR codes to verify their immunization records.
@@ -225,6 +227,45 @@ export const ProjectItems = [
           <li>
             User can view the categorized list of school resources and access
             them with a single click.
+          </li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    date: new Date(2022, 8, 7),
+    id: 220408,
+    github: "https://github.com/HackHolyoke-Webmaster/react-website",
+    url: "https://hackholyoke.com/",
+    name: "hackholyoke",
+    img: "https://i.postimg.cc/yNcxKC28/hackholyoke.png",
+    title: "HackHolyoke React Website (Under Construction)",
+    content: (
+      <>
+        <h3>Description</h3>
+        <p>
+          I am co-developing an official website for the school’s traditional
+          24-hour hackathon <strong>HackHolyoke</strong> using React.js and
+          Figma. This website provides information about HackHolyoke including
+          date, organizing team, schedules, challenges, and
+          sponsors. I'm working on the main page and adding mobile
+          responsiveness to the whole website.
+        </p>
+        <br />
+        <h3>Features</h3>
+        <ul>
+          <li>User can visit different pages of the website using the navbar on top.</li>
+          <li>User can register to the event using 'Register' button on the navbar.</li>
+          <li>
+            User can check how many days are left until the event begins as well
+            as the date of the event.
+          </li>
+          <li>
+            User can get information about HackHolyoke and organizing team
+            members.
+          </li>
+          <li>
+            User can view sponsors, schedules, challenges, and prehack resources.
           </li>
         </ul>
       </>

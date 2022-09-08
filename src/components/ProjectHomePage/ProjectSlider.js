@@ -23,7 +23,7 @@ const ProjectSlider = ({ slides }) => {
     <section className='slider'>
       <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
       <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
-      {ProjectItems.map((slide, index) => {
+      {ProjectItems.sort((a, b) => b.date - a.date).slice(0, 3).map((slide, index) => {
         return (
           <div
             className={index === current ? 'slide active' : 'slide'}
