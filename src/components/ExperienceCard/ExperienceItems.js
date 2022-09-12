@@ -6,9 +6,9 @@ export const ExperienceItems = [
         date: 'June 2022 - Aug 2022',
         url: 'https://www.bonterratech.com/',
         role: '▶ Built RESTful APIs for an integrated web platform and created an online report page where clients are able to filter their transactions from a particular third-party platform using C# and SQL.',
-        role2: '▶ Wrote tests for features and API functionallity and ran both automated and manual testings on TeamCity. Utilized Microsoft SQL Server Management Studio to retrieve data from SQL server databases.',
-        role3: '▶ Upgraded Android mobile app, configured Bluetooth permission requests to meet security requirements, and set up its UI design using Kotlin.',
-        role4: '▶ Did pair programming and code reviews to engineers across teams. Shared ongoing process and presented the projects during daily team stand-up and biweekly stakeholder meetings.'
+        role2: '▶ Wrote tests for features and API functionality and ran both automated and manual testings on TeamCity. Utilized Microsoft SQL Server Management Studio to retrieve data from SQL server databases.',
+        role3: '▶ Upgraded the Android mobile app, configured Bluetooth permission requests to meet security requirements, and set up its UI design using Kotlin.',
+        role4: '▶ Did pair programming and code reviews for engineers across teams. Shared ongoing processes and presented the projects during daily team stand-ups and biweekly stakeholder meetings.'
     },
     {
         id: 2,
