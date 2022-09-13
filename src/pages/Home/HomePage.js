@@ -59,21 +59,9 @@ export default function HomePage() {
         <div className="home-catchup">
           <h3 className="home-catchup-font">Catch up with me:</h3>
           <p className="home-catchup-font">
-            Interning{" "}
-            <span>
-              <a
-                className="link-non-decoration text-bold"
-                href="https://www.bonterratech.com/"
-                target="_blank"
-                rel="noreferrer"
-                title="Bonterra"
-              >
-                @ Bonterra
-              </a>
-            </span>{" "}
-            for the summer!
+            Final year of college; Open to software engineering positions!
           </p>
-          <p className="home-catchup-update">Updated July 3rd, 2022</p>
+          <p className="home-catchup-update">Updated Sep 12th, 2022</p>
         </div>
       </div>
 

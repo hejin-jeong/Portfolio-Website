@@ -19,7 +19,7 @@ export default function Navbar() {
         {NavbarItems.map((item, index) => {
           return (
             <li key={index}>
-              <a className={item.cName} href={item.url}>
+              <a className={isClicked ? item.cName :  `nav-link-display ${item.cName}`} href={item.url}>
                 {item.title}
               </a>
             </li>
