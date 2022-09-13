@@ -34,12 +34,12 @@
     transition: all 0.1s ease-out; */
 }
 
-.nav-links-mobile {
+.menu-icon, .nav-links-mobile {
     display: none;
 }
 
 
-@media screen and (max-width: 960px) {
+@media only screen and (max-width: 960px) {
     .NavbarItems{
         position: fixed;
         width: 100%;
@@ -60,7 +60,7 @@
     }
 
     .nav-menu.active {
-        background: #6668f7;
+        background: #96B4FF;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -75,7 +75,8 @@
     }
 
     .nav-links:hover {
-        background-color: #7577fa;
+        background-color: #c1d2fc;
+        color: white;
         border-radius: 0;
     }
 
@@ -93,6 +94,7 @@
         display: block;
         position: absolute;
         top: 0;
+        bottom: 90;
         right: 0;
         transform: translate(-100%, 60%);
         font-size: 1.8rem;

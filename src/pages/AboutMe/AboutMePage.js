@@ -10,11 +10,11 @@ export default function AboutMePage() {
       <ProfileChange />
 
       <div className="about-life">
-        <h2>Life</h2>
+        <h2 className="about-title-font">Life</h2>
         <p className="pearl">
           <em>"Pearl of the Sea"</em>
         </p>
-        <p>
+        <p className="long-text">
           In my name, 'He' stands for the sea and 'jin' refers to the pearl and
           genuineness. I live my life as wide as the sea, deep as the sea,
           active as the sea, and calm as the sea. I want my pearl to be genuine
@@ -23,8 +23,8 @@ export default function AboutMePage() {
         </p>
       </div>
       <div className="about-swe">
-        <h2>Software Engineer</h2>
-        <p>
+        <h2 className="about-title-font">Software Engineer</h2>
+        <p className="long-text">
           I have long been interested in pursuing social values that improve the
           quality of life. To convert my ideas into action, I try to help others
           who need my knowledge and skills by volunteering, working as a TA, and
@@ -38,14 +38,14 @@ export default function AboutMePage() {
       <div className="about-edu-skills">
         <div>
           <div className="about-edu">
-            <h2>Education</h2>
-            <ul>
+            <h2 className="about-title-font">Education</h2>
+            <ul className="long-text margin-bottom-1rem">
               <li>Mount Holyoke College '23</li>
             </ul>
           </div>
           <div className="about-love">
-            <h2>Interests</h2>
-            <ul>
+            <h2 className="about-title-font">Interests</h2>
+            <ul className="long-text">
               <li>Fullstack development</li>
               <li>Mobile development</li>
               <br />
@@ -57,7 +57,7 @@ export default function AboutMePage() {
           </div>
         </div>
         <div className="about-skills">
-          <h2>Skills</h2>
+          <h2 className="about-title-font">Skills</h2>
           <div className="grid-container">
             <div className="grid-skill">Python</div>
             <div className="grid-level">●●●●●</div>

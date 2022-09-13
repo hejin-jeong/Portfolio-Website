@@ -107,17 +107,21 @@
     padding-bottom: 20px;
 }
 
-@media only screen and (max-width: 1080px) {
+.project-button {
+    margin-top: 500px;
+}
+
+@media only screen and (max-width: 1220px) {
     .home-profile {
-        padding: 80px 20% 60px;
+        padding: 80px 15% 60px;
     }
 
     .home-experience {
-        padding: 0 20% 50px;
+        padding: 0 15% 50px;
     }
 
     .home-project {
-        padding: 0 20% 70px;
+        padding: 0 15% 70px;
     }
 }
 
@@ -133,6 +137,48 @@
     .home-project {
         padding: 0 10% 70px;
     }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-name {
+        margin-right: 0;
+        font-size: 5rem;
+    }
+
+    .home-profile-logos {
+        font-size: 3rem;
+    }
+
+    .font-roboto {
+        font-size: 2rem;
+    }
+
+    .margin-bottom-20px {
+        font-size: 1.5rem;
+    }
+
+    .home-button {
+        font-size: 1.5rem;
+    }
+
+    .home-catchup {
+        margin: 10% auto auto;
+        width: 80%;
+    }
+
+    .home-catchup-font {
+        font-size: 1.5rem;
+    }
+
+    .home-experience-title, .home-project-title {
+        font-size: 2.5rem;
+    }
+
 }
 
 

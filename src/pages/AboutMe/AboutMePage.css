@@ -90,3 +90,31 @@ ul {
     color: #96B4FF;
     font-size: 1.5rem;
 }
+
+
+@media only screen and (max-width: 960px) {
+.about-page {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.about-edu-skills {
+    flex-direction: column;
+}
+
+.about-skills {
+    margin-left: 0;
+}
+
+.about-title-font {
+    font-size: 2rem;
+}
+
+.long-text, .pearl, .grid-container {
+    font-size:1.6rem;
+}
+
+.margin-bottom-1rem {
+    margin-bottom: 2rem;
+}
+}

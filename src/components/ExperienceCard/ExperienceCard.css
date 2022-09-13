@@ -52,3 +52,25 @@
 .experience-home {
     background-color: #FFF7E3;
 }
+
+@media only screen and (max-width: 960px) {
+.experience-card-box {
+    width: 80vw;
+}
+
+.experience-clicked {
+    width: 80vw;
+}
+
+.experience-card-date {
+    font-size:1.2rem;
+}
+
+.experience-card-content {
+    font-size:1.6rem;
+}
+
+.experience-clicked {
+    font-size: 1.5rem;
+}
+}

@@ -17,7 +17,7 @@ export default function HomePage() {
         <div className="flex-container">
           <div className="flex-container">
             <h1 className="home-name">Hejin Jeong</h1>
-            <div>
+            <div className="profile-links-mobile">
               <ProfileChange />
               <div className="home-profile-logos">
                 <a
@@ -58,8 +58,8 @@ export default function HomePage() {
         </div>
 
         <div className="home-catchup">
-          <h3>Catch up with me:</h3>
-          <p>
+          <h3 className="home-catchup-font">Catch up with me:</h3>
+          <p className="home-catchup-font">
             Interning{" "}
             <span>
               <a
@@ -95,7 +95,7 @@ export default function HomePage() {
         <div>
           <ProjectSlider slides={ProjectItems.sort((a, b) => b.date - a.date).slice(0, 3)} />
         </div>
-        <a className="home-button" href="/project">
+        <a className="home-button project-button" href="/project">
           More Projects
         </a>
       </div>
