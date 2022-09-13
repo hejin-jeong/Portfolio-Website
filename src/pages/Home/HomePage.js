@@ -8,7 +8,6 @@ import { ExperienceItems } from "../../components/ExperienceCard/ExperienceItems
 
 import ProjectSlider from "../../components/ProjectHomePage/ProjectSlider";
 import { ProjectItems } from "../../components/ProjectCard/ProjectItems";
-import ProjectSlideShow from "../../components/ProjectHomePage/ProjectSlideShow";
 
 export default function HomePage() {
   return (

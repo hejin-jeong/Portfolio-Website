@@ -128,6 +128,8 @@
 @media only screen and (max-width: 960px) {
     .home-profile {
         padding: 80px 10% 60px;
+        align-items: center;
+        text-align: center;
     }
 
     .home-experience {
@@ -147,7 +149,8 @@
 
     .home-name {
         margin-right: 0;
-        font-size: 5rem;
+        font-size: 4rem;
+        text-align: center;
     }
 
     .home-profile-logos {

@@ -102,8 +102,13 @@ ul {
     flex-direction: column;
 }
 
+.about-edu {
+    height:auto;
+}
+
 .about-skills {
     margin-left: 0;
+    width: auto;
 }
 
 .about-title-font {

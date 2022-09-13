@@ -10,7 +10,7 @@ export default function ProjectPageCard({ img, title, content, github, url, memo
   };
 
   return (
-    <div>
+    <div className="width-95">
       <div className="project-card-box">
         <img
           className="project-card-img"
