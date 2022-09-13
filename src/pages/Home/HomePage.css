@@ -170,7 +170,7 @@
     }
 
     .home-catchup {
-        margin: 10% auto auto;
+        margin: 20% auto auto;
         width: 80%;
     }
 
@@ -184,4 +184,8 @@
 
 }
 
-
+@media only screen and (max-width: 400px) {
+    .home-experience-title, .home-project-title {
+        font-size: 2rem;
+    }
+}

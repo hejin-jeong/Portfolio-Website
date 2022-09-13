@@ -119,7 +119,14 @@ ul {
     font-size:1.6rem;
 }
 
-.margin-bottom-1rem {
-    margin-bottom: 2rem;
 }
+
+@media only screen and (max-width: 400px) {
+    .about-name {
+        font-size: 4rem;
+    }
+
+    .long-text, .pearl, .grid-container {
+        font-size:1.2rem;
+    }
 }
