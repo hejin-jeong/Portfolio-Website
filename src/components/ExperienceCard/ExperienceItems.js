@@ -15,7 +15,7 @@ export const ExperienceItems = [
         title: 'Web Developer',
         employer: 'HackHolyoke',
         date: 'March 2022 - Current',
-        url: 'https://hackholyoke.com/',
+        url: 'http://hackholyoke.org/',
         role: '▶ Co-developing an official website for the school’s traditional 24-hour hackathon using React.js and Figma.',
         role2: '▶ Organized weekly web development team meetings and utilized GitHub milestones to prioritize project tasks according to the hackathon\'s goals, deadlines, and task values.'
     },
