@@ -236,7 +236,7 @@ export const ProjectItems = [
     date: new Date(2022, 8, 7),
     id: 220408,
     github: "https://github.com/HackHolyoke-Webmaster/react-website",
-    url: "https://hackholyoke.com/",
+    url: "http://hackholyoke.org/",
     name: "hackholyoke",
     img: "https://i.postimg.cc/yNcxKC28/hackholyoke.png",
     title: "HackHolyoke React Website (Under Construction)",
