@@ -236,19 +236,19 @@ export const ProjectItems = [
     date: new Date(2022, 8, 7),
     id: 220408,
     github: "https://github.com/HackHolyoke-Webmaster/react-website",
-    url: "http://hackholyoke.org/",
+    url: "https://hackholyoke.org/",
     name: "hackholyoke",
     img: "https://i.postimg.cc/yNcxKC28/hackholyoke.png",
-    title: "HackHolyoke React Website (Under Construction)",
+    title: "HackHolyoke React Website",
     content: (
       <>
         <h3>Description</h3>
         <p>
-          I am co-developing an official website for the school’s traditional
+          I co-developed an official website for the school’s traditional
           24-hour hackathon <strong>HackHolyoke</strong> using React.js and
           Figma. This website provides information about HackHolyoke including
           date, organizing team, schedules, challenges, and
-          sponsors. I'm working on the main page and adding mobile
+          sponsors. I've worked on the main page and added mobile
           responsiveness to the whole website.
         </p>
         <br />
