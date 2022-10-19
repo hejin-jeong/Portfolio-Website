@@ -15,7 +15,7 @@ export const ExperienceItems = [
         title: 'Web Developer',
         employer: 'HackHolyoke',
         date: 'March 2022 - Current',
-        url: 'http://hackholyoke.org/',
+        url: 'https://hackholyoke.org/',
         role: '▶ Co-developing an official website for the school’s traditional 24-hour hackathon using React.js and Figma.',
         role2: '▶ Organized weekly web development team meetings and utilized GitHub milestones to prioritize project tasks according to the hackathon\'s goals, deadlines, and task values.'
     },
@@ -33,7 +33,7 @@ export const ExperienceItems = [
         title: 'Logistic Coordinator',
         employer: 'HackHolyoke',
         date: 'Sep 2021 - Nov 2021',
-        url: 'https://hackholyoke.com/',
+        url: 'https://hackholyoke.org/',
         role: '▶ Coordinated workshops, mentorships, and judging sessions for gender-marginalized individuals with 350+ registrants.',
         role2: '▶ Conducted weekly logistic team meetings for discussions and updated status during regular meetings with cross-functional teams of 10+ organizers.'
     },
