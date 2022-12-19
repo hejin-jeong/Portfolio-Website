@@ -79,6 +79,8 @@ export default function AboutMePage() {
             <div className="grid-level">●●○○○</div>
             <div className="grid-skill">R</div>
             <div className="grid-level">●●●●○</div>
+            <div className="grid-skill">C</div>
+            <div className="grid-level">●○○○○</div>
           </div>
         </div>
       </div>
