@@ -59,7 +59,7 @@ export default function HomePage() {
         <div className="home-catchup">
           <h3 className="home-catchup-font">Catch up with me:</h3>
           <p className="home-catchup-font">
-          Finished my second to last semester! Looking forward to the final semester, finale of my college life🎆
+          Finalizing my college life👩‍🎓. Learning OS, NLP, Kotlin, React-Native, and C++.
           </p>
           <p className="home-catchup-update">Updated Dec 19th, 2022</p>
         </div>

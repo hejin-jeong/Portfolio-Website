@@ -70,17 +70,19 @@ export default function AboutMePage() {
             <div className="grid-skill">HTML/CSS</div>
             <div className="grid-level">●●●●●</div>
             <div className="grid-skill">C#</div>
-            <div className="grid-level">●●●○○</div>
+            <div className="grid-level">●●○○○</div>
+            <div className="grid-skill">C/C++</div>
+            <div className="grid-level">●○○○○</div>
             <div className="grid-skill">SQL</div>
             <div className="grid-level">●●●○○</div>
             <div className="grid-skill">React Native</div>
             <div className="grid-level">●●○○○</div>
             <div className="grid-skill">Swift</div>
             <div className="grid-level">●●○○○</div>
+            <div className="grid-skill">Kotlin</div>
+            <div className="grid-level">●●○○○</div>
             <div className="grid-skill">R</div>
             <div className="grid-level">●●●●○</div>
-            <div className="grid-skill">C</div>
-            <div className="grid-level">●○○○○</div>
           </div>
         </div>
       </div>
