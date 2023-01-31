@@ -61,7 +61,7 @@ export default function HomePage() {
           <p className="home-catchup-font">
           Finalizing my college life👩‍🎓. Learning OS, NLP, Kotlin, React-Native, and C++.
           </p>
-          <p className="home-catchup-update">Updated Dec 19th, 2022</p>
+          <p className="home-catchup-update">Updated Jan 25th, 2022</p>
         </div>
       </div>
 
